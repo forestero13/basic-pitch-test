@@ -29,7 +29,6 @@ from basic_pitch.constants import ANNOTATIONS_N_SEMITONES
 
 RESOURCES_PATH = pathlib.Path(__file__).parent / "resources"
 
-print('yes')
 class TestPredict(unittest.TestCase):
     def test_predict(self) -> None:
         test_audio_path = RESOURCES_PATH / "vocadito_10.wav"
